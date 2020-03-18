@@ -27,5 +27,6 @@ public class MainActivity extends AppCompatActivity {
         });
 
 //        2. 프로필 수정화면에서 이름입력 => 확인 => 종료 / 메인으로 복귀
+//        =>프로필로 고고
     }
 }

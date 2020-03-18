@@ -21,7 +21,7 @@ public class EditUserInfoActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 //                이 인텐트는 데이터 첨부만을 위한 Intent!!!! 출발/도착점 설정x.
-                Intent intent = Intent();
+                Intent intent = new Intent();
 //                이름 입력칸에 적힌 내용을 String으로 변환해서  inputName이란 이름표를 붙여서 첨부함
                 intent.putExtra("inputName", binding.nameEdt.getText().toString());
 //                결과 입력 완료 신호 + 어떤 데이터가 들어있는지 intent 설정.
